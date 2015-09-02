@@ -1,19 +1,41 @@
 {
   "name": "grunt-react-native",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Grunt tasks to watch and deploy react-native applications.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SidBala/grunt-react-native",
+  "author": {
+    "name": "Sid Bala",
+    "email": "Sid.Bala@Outlook.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BuddyBuild/grunt-react-native.git"
+    "url": "https://github.com/SidBala/grunt-react-native.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BuddyBuild/grunt-react-native/issues"
+    "url": "https://github.com/SidBala/grunt-react-native/issues"
   },
-  "homepage": "https://github.com/BuddyBuild/grunt-react-native#readme"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/SidBala/grunt-react-native/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
 }
